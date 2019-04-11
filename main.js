@@ -14,7 +14,7 @@ $(document).ready(function(){
 owl.owlCarousel({
     items:4,
     loop:true,
-    margin:0,
+    margin:1,
     autoplay:true,
     autoWidth: true,
     autoHeight: true,
