@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>wakachurch</title>
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="main.css">
+    <!-- Googel Font -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700|Roboto:300,400,500" rel="stylesheet">
+    <!-- Font-awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css" integrity="sha384-Mmxa0mLqhmOeaE8vgOSbKacftZcsNYDjQzuCOm6D02luYSzBG8vpaOykv9lFQ51Y" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar p-0 navbar-expand-lg navbar-light bg-light">
+            
+
+            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand pl-4 pt-0 pb-0" href="#">WakaChurch</a>
+            
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav ml-auto pr-4 pt-3 pb-3 mt-2 mt-lg-0">
+                <!-- <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li> -->
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Add Event</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Add Ministry</a>
+                </li>
+                <li class="nav-link mr-3 p-0">
+                    <a href="" class="btn btn-danger ">Login</a>
+                </li>
+                <li class="nav-link p-0">
+                    <a href="" class="btn btn-success">Sign Up</a>
+                </li>
+                </ul>
+                
+            </div>                          
+        </nav>
+        <div class="header">
+            <div class="header-text">
+                <h1 class="text-center pl-2 pr-2">Welcome To <span>Wakachurch</span></h1>
+            </div>
+            <div class="header-sub-text">
+                <p class="text-center">Find Churches, choirs, bands & friends</p>
+            </div>
+            <div class="brand">      
+                <div class="row">
+                    <div class="col-lg-4"></div>
+                    <div class="col-lg-1 col-6 col-sm-6">
+                        <div class="text-center">
+                            <i class="fas mb-4 fa-church fa-5x"></i>
+                            <p>Churches</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-1 col-6 col-sm-6">
+                        <div class="text-center">
+                            <i class="fas mb-4 fa-5x fa-podcast"></i>
+                            <p>Choirs</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-1 col-6 col-sm-6">
+                        <div class="text-center">
+                            <i class="fas mb-4 fa-5x fa-compact-disc"></i>
+                            <p>Bands</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-1 col-6 col-sm-6">
+                        <div class="text-center">
+                            <i class="fas mb-4 fa-5x fa-calendar-alt"></i>
+                            <p>Events</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4"></div>
+                </div>
+            </div>
+            <div class="search">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="listing-tab" data-toggle="tab" href="#listing" role="tab" aria-controls="home" aria-selected="true"><i class="fas fa-list-alt"></i> Listing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="friends-tab" data-toggle="tab" href="#friends" role="tab" aria-controls="profile" aria-selected="false"><i class="far fa-calendar-alt"></i> Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="events-tab" data-toggle="tab" href="#events" role="tab" aria-controls="contact" aria-selected="false"><i class="fas fa-user-friends"></i> Friends</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="listing" role="tabpanel" aria-labelledby="listing-tab">
+                        <form action="">
+                            <div class="row">
+                                <div class="col-lg-4 col-sm-6">
+                                    <div>
+                                        <p>What you'd like to find?</p>
+                                        <input style="font-size: 1rem;" class="form-control form-control-lg" type="text" placeholder="Search churches, choirs, band">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-sm-6">
+                                    <div>
+                                        <p>Where to look for?</p>
+                                        <select name="category" id="" class="w-100">
+                                            <option value="">Select State</option>
+                                            <option value="">Option 1</option>
+                                            <option value="">Option 1</option>
+                                            <option value="">Option 1</option>
+                                            <option value="">Option 1</option>
+                                            <option value="">Option 1</option>
+                                        </select>                                
+                                        <!-- <input class="form-control form-control-lg" type="text" placeholder="Search for location"> -->
+                                        <!-- <div class="input-group mb-3">
+                                            <input type="text" class="form-control form-control-lg" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                            <div class="input-group-append">
+                                                <span class="input-group-text" id="basic-addon2"><i class="fas fa-map-marker"></i></span>
+                                            </div>  
+                                        </div> -->
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-sm-6">
+                                    <div>
+                                        <p>In what category?</p>
+                                        <select name="category" id="" class="w-100">
+                                            <option value="">Select Category</option>
+                                            <option value="">Option 1</option>
+                                            <option value="">Option 1</option>
+                                            <option value="">Option 1</option>
+                                            <option value="">Option 1</option>
+                                            <option value="">Option 1</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <p class="mt-3">There are over <strong>111</strong> listings for you to search from.</p>
+                                </div>
+                                <div class="col-lg-4"></div>
+                                <div class="col-lg-2"></div>
+                                <div class="col-lg-2">
+                                    <button type="submit" class="btn btn-lg btn-danger mt-3 w-100"><i class="fas fa-search ml-2 mr-3"></i>Search</button>
+                                </div>
+                            </div>
+                        </form>                        
+                    </div>
+                    <div class="tab-pane fade" id="events" role="tabpanel" aria-labelledby="events-tab">
+                        <form action="">
+                            <div class="row">
+                                <div class="col-lg-4 col-sm-6">
+                                    <div>
+                                        <p>What you'd like to find?</p>
+                                        <input style="font-size: 1rem;" class="form-control form-control-lg" type="text" placeholder="Search churches, choirs, band">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-sm-6">
+                                    <div>
+                                        <p>Where to look for?</p>
+                                        <select name="category" id="" class="w-100">
+                                            <option value="">Select State</option>
+                                            <option value="">Option 1</option>
+                                            <option value="">Option 1</option>
+                                            <option value="">Option 1</option>
+                                            <option value="">Option 1</option>
+                                            <option value="">Option 1</option>
+                                        </select>                                
+                                        <!-- <input class="form-control form-control-lg" type="text" placeholder="Search for location"> -->
+                                        <!-- <div class="input-group mb-3">
+                                            <input type="text" class="form-control form-control-lg" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                            <div class="input-group-append">
+                                                <span class="input-group-text" id="basic-addon2"><i class="fas fa-map-marker"></i></span>
+                                            </div>  
+                                        </div> -->
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-sm-6">
+                                    <div>
+                                        <p>In what category?</p>
+                                        <select name="category" id="" class="w-100">
+                                            <option value="">Select Category</option>
+                                            <option value="">Option 1</option>
+                                            <option value="">Option 1</option>
+                                            <option value="">Option 1</option>
+                                            <option value="">Option 1</option>
+                                            <option value="">Option 1</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <p class="mt-3">There are over <sstrong>111</sstrong> listings for you to search from.</p>
+                                </div>
+                                <div class="col-lg-4"></div>
+                                <div class="col-lg-2"></div>
+                                <div class="col-lg-2">
+                                    <button type="submit" class="btn btn-lg btn-danger mt-3 w-100"><i class="fas fa-search ml-2 mr-3"></i>Search</button>
+                                </div>
+                            </div>
+                        </form>                        
+                    </div>
+                    <div class="tab-pane fade" id="friends" role="tabpanel" aria-labelledby="friends-tab">
+                        <form action="">
+                            <div class="row">
+                                <div class="col-lg-4 col-sm-6">
+                                    <div>
+                                        <p>What you'd like to find?</p>
+                                        <input style="font-size: 1rem;" class="form-control form-control-lg" type="text" placeholder="Search churches, choirs, band">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-sm-6">
+                                    <div>
+                                        <p>Where to look for?</p>
+                                        <select name="category" id="" class="w-100">
+                                            <option value="">Select State</option>
+                                            <option value="">Option 1</option>
+                                            <option value="">Option 1</option>
+                                            <option value="">Option 1</option>
+                                            <option value="">Option 1</option>
+                                            <option value="">Option 1</option>
+                                        </select>                                
+                                        <!-- <input class="form-control form-control-lg" type="text" placeholder="Search for location"> -->
+                                        <!-- <div class="input-group mb-3">
+                                            <input type="text" class="form-control form-control-lg" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                            <div class="input-group-append">
+                                                <span class="input-group-text" id="basic-addon2"><i class="fas fa-map-marker"></i></span>
+                                            </div>  
+                                        </div> -->
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-sm-6">
+                                    <div>
+                                        <p>In what category?</p>
+                                        <select name="category" id="" class="w-100">
+                                            <option value="">Select Category</option>
+                                            <option value="">Option 1</option>
+                                            <option value="">Option 1</option>
+                                            <option value="">Option 1</option>
+                                            <option value="">Option 1</option>
+                                            <option value="">Option 1</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <p class="mt-3">There are over <sstrong>111</sstrong> listings for you to search from.</p>
+                                </div>
+                                <div class="col-lg-4"></div>
+                                <div class="col-lg-2"></div>
+                                <div class="col-lg-2">
+                                    <button type="submit" class="btn btn-lg btn-danger mt-3 w-100"><i class="fas fa-search ml-2 mr-3"></i>Search</button>
+                                </div>
+                            </div>
+                        </form>                        
+                    </div>
+                </div>
+
+                
+            </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="section1">
+            <div class="container">
+                <div class="pt-5 text-center">
+                    <h1 class="">
+                        <span>How WakaChurch works?</span>
+                    </h1>
+                    <p class="mt-5 lead">All The Benefits You Can Get At Your Fingertips</p>
+                </div>
+                <div class="block text-center">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="">
+                                <i class="fas fa-search-location fa-2x"></i>
+                                <p>Add and search for Churches, Choirs and Bands</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="">
+                                <i class="fas fa-users fa-2x"></i>
+                                <p>Search for members going to your church and other churches</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div>
+                                <i class="fas fa-star fa-2x"></i>
+                                <p>Review and Rate Churches, Choirs and Events</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+                            <div>
+                                <i class="far fa-calendar fa-2x"></i>
+                                <p>Add and search for upcoming events</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="section2">
+            <div class="explore-states">
+                <div class="text-center">
+                    <h1>Explore States</h1>
+                    <p>Browse through different churches, choirs, bands and events in your vicinty</p>
+                </div>
+                <div class="state-images mt-5">
+                    <div class="owl-carousel owl-theme row">
+                        <div class="col-lg-3 item col-12">
+                            <img class="w-100"src="https://images.unsplash.com/photo-1531846802986-4942a5c3dd08?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="">
+                            <div class="state-text text-center">
+                                <h1 class="pt-5">Lagos</h1>
+                                <h6 class="pb-5">100 Listings</h6>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 item col-12">
+                            <img class="w-100"src="https://images.unsplash.com/photo-1508030358362-c071fa056233?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="">
+                            <div class="state-text text-center">
+                                <h1 class="pt-5">Abuja</h1>
+                                <h6 class="pb-5">25 Listings</h6>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 item col-12">
+                            <img class="w-100"src="https://images.unsplash.com/photo-1525095240410-9645dea911e4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="">
+                            <div class="state-text text-center">
+                                <h1 class="pt-5">Ibadan</h1>
+                                <h6 class="pb-5">67 Listings</h6>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 item col-12">
+                            <img class="w-100"src="https://images.unsplash.com/photo-1550837725-bdcb030d1e54?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="">
+                            <div class="state-text text-center">
+                                <h1 class="pt-5">Port-Harcourt</h1>
+                                <h6 class="pb-5">65 Listings</h6>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 item col-12">
+                            <img class="w-100"src="https://images.unsplash.com/photo-1526996950622-c07217b29fa9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="">
+                            <div class="state-text text-center">
+                                <h1 class="pt-5">Warri</h1>
+                                <h6 class="pb-5">34 Listings</h6>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 item col-12">
+                            <img class="w-100"src="https://images.unsplash.com/photo-1498957607239-c54bf0abde7a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="">
+                            <div class="state-text text-center">
+                                <h1 class="pt-5">Kano</h1>
+                                <h6 class="pb-5">80 Listings</h6>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 item col-12">
+                            <img class="w-100"src="https://images.unsplash.com/photo-1501274489983-5a343e378cd6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="">
+                            <div class="state-text text-center">
+                                <h1 class="pt-5">Benin</h1>
+                                <h6 class="pb-5">59 Listings</h6>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 item col-12">
+                            <img class="w-100"src="https://images.unsplash.com/photo-1550837725-40d6bb9d0f97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="">
+                            <div class="state-text text-center">
+                                <h1 class="pt-5">Imo</h1>
+                                <h6 class="pb-5">30 Listings</h6>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 item col-12">
+                            <img class="w-100"src="https://images.unsplash.com/photo-1550837725-d8384a839794?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="">
+                            <div class="state-text text-center">
+                                <h1 class="pt-5">Akure</h1>
+                                <h6 class="pb-5">15 Listings</h6>
+                            </div>
+                        </div>
+
+                    </div>                                                                                                                                                                                                                 
+                </div>                                       
+            </div>
+        </section>
+        <section id="section3">
+            <div class="">
+                <h1 class="h1 text-center mb-5">Add Ministry</h1>
+                <div class="add-ministry">
+                    <div class="add-ministry-sub text-justify">
+                        <p>You don't have to walk many miles beforeyou find a Bible believeing Church to call your home</p>
+                        <p>Just sit back and browse through our various list of Churches, you can also find nearby churches to save your stress of going too far</p>
+                        <p>Do you have an event coming up? Own a tight Live Band? IS your choir really dope that they deserve recognition? OWn a ministry or just started one? Don't worry, We got you!</p>
+                        <p>Adding your listing to wakachurch is very fast and super easy. Let visitors see your Church, Choir, Bands & Events first when they browse through wakachurch</p>
+                        <p class="font-weight-bold text-center mt-5">We bring the people closer to Church</p>
+                        <div class="text-center mt-5">
+                            <a href="#" class="btn btn-warning mr-5">Add Ministry</a>
+                            <a href="#" class="btn btn-warning">Add Event</a>
+                        </div>                    
+                    </div class="add-ministry-sub">
+                </div>
+            </div>
+        </section>
+        <section id="section4">
+            <div class="worship">
+                <div class="text-center worship-header">
+                    <h1>Great Places To Worship</h1>
+                    <h6>Connect with a Bible believing church and get closer to God with ease</h6>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="worship-church mb-5 mt-5 mr-sm-5 ml-sm-5">
+                            <div class="row">
+                                <div class="col-6">
+                                    <img class="w-100" src="https://images.unsplash.com/photo-1502590977968-bd45c3beeb21?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="">
+                                </div>
+                                <div class="col-6">
+                                    <div class="">
+                                        <h1 class="mb-4 mt-4">Church Name</h1>
+                                        <h5 class="mb-3">Opening Hours</h5>
+                                        <h5 class="pl-5">Mon-Fri 6:00AM - 7:00PM</h5>
+                                        <h5 class="pl-5">Sat-Sun 9:00AM - 5:00PM</h5>
+                                        <h5 class="mb-3 mt-5">Phone Number</h5>
+                                        <h5 class="pl-5">+2349000000000</h5>
+                                        <h5 class="mb-3 mt-5">Ratings</h5>
+                                        <h5 class="pl-5">
+                                            <i class="fas fa-star fa-rate"></i>
+                                            <i class="fas fa-star fa-rate"></i>
+                                            <i class="fas fa-star fa-rate"></i>
+                                            <i class="fas fa-star fa-rate"></i>
+                                            <i class="fas fa-star fa-no-rate"></i>
+                                        </h5>
+                                        <h6 class="text-right mr-4 mt-5"><a href="#">Read More</a></h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="worship-church mb-5 mt-5 mr-sm-5 ml-sm-5">
+                            <div class="row">
+                                <div class="col-6">
+                                    <img class="w-100" src="https://images.unsplash.com/photo-1502590977968-bd45c3beeb21?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="">
+                                </div>
+                                <div class="col-6">
+                                    <div class="">
+                                        <h1 class="mb-4 mt-4">Church Name</h1>
+                                        <h5 class="mb-3">Opening Hours</h5>
+                                        <h5 class="pl-5">Mon-Fri 6:00AM - 7:00PM</h5>
+                                        <h5 class="pl-5">Sat-Sun 9:00AM - 5:00PM</h5>
+                                        <h5 class="mb-3 mt-5">Phone Number</h5>
+                                        <h5 class="pl-5">+2349000000000</h5>
+                                        <h5 class="mb-3 mt-5">Ratings</h5>
+                                        <h5 class="pl-5">
+                                            <i class="fas fa-star fa-rate"></i>
+                                            <i class="fas fa-star fa-rate"></i>
+                                            <i class="fas fa-star fa-rate"></i>
+                                            <i class="fas fa-star fa-rate"></i>
+                                            <i class="fas fa-star fa-no-rate"></i>
+                                        </h5>
+                                        <h6 class="text-right mr-4 mt-5"><a href="#">Read More</a></h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="worship-church mb-5 mt-5 mr-sm-5 ml-sm-5">
+                            <div class="row">
+                                <div class="col-6">
+                                    <img class="w-100" src="https://images.unsplash.com/photo-1502590977968-bd45c3beeb21?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=70" alt="">
+                                </div>
+                                <div class="col-6">
+                                    <div class="">
+                                        <h1 class="mb-4 mt-4">Church Name</h1>
+                                        <h5 class="mb-3">Opening Hours</h5>
+                                        <h5 class="pl-5">Mon-Fri 6:00AM - 7:00PM</h5>
+                                        <h5 class="pl-5">Sat-Sun 9:00AM - 5:00PM</h5>
+                                        <h5 class="mb-3 mt-5">Phone Number</h5>
+                                        <h5 class="pl-5">+2349000000000</h5>
+                                        <h5 class="mb-3 mt-5">Ratings</h5>
+                                        <h5 class="pl-5">
+                                            <i class="fas fa-star fa-rate"></i>
+                                            <i class="fas fa-star fa-rate"></i>
+                                            <i class="fas fa-star fa-rate"></i>
+                                            <i class="fas fa-star fa-rate"></i>
+                                            <i class="fas fa-star fa-no-rate"></i>
+                                        </h5>
+                                        <h6 class="text-right mr-4 mt-5"><a href="#">Read More</a></h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="worship-church mb-5 mt-5 mr-sm-5 ml-sm-5">
+                            <div class="row">
+                                <div class="col-6">
+                                    <img class="w-100" src="https://images.unsplash.com/photo-1502590977968-bd45c3beeb21?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=70" alt="">
+                                </div>
+                                <div class="col-6">
+                                    <div class="">
+                                        <h1 class="mb-4 mt-4">Church Name</h1>
+                                        <h5 class="mb-3">Opening Hours</h5>
+                                        <h5 class="pl-5">Mon-Fri 6:00AM - 7:00PM</h5>
+                                        <h5 class="pl-5">Sat-Sun 9:00AM - 5:00PM</h5>
+                                        <h5 class="mb-3 mt-5">Phone Number</h5>
+                                        <h5 class="pl-5">+2349000000000</h5>
+                                        <h5 class="mb-3 mt-5">Ratings</h5>
+                                        <h5 class="pl-5">
+                                            <i class="fas fa-star fa-rate"></i>
+                                            <i class="fas fa-star fa-rate"></i>
+                                            <i class="fas fa-star fa-rate"></i>
+                                            <i class="fas fa-star fa-rate"></i>
+                                            <i class="fas fa-star fa-no-rate"></i>
+                                        </h5>
+                                        <h6 class="text-right mr-4 mt-5"><a href="#">Read More</a></h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mt-5 pb-5">
+                    <a href="#" class="btn btn-lg btn-secondary">See More</a>
+                </div>
+            </div>
+        </section>
+        <section id="section5">
+            <div class="worship">
+                <div class="text-center worship-header">
+                    <h1>Experience Worship</h1>
+                    <h6>Love Praise & Worship?  Why not checkout these dope choirs.</h6>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="worship-church mb-5 mt-5 mr-sm-5 ml-sm-5">
+                            <div class="row">
+                                <div class="col-6">
+                                    <img class="w-100" src="https://images.unsplash.com/photo-1502590977968-bd45c3beeb21?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="">
+                                </div>
+                                <div class="col-6">
+                                    <div class="">
+                                        <h1 class="mb-4 mt-4">Church Name</h1>
+                                        <h5 class="mb-3">Opening Hours</h5>
+                                        <h5 class="pl-5">Mon-Fri 6:00AM - 7:00PM</h5>
+                                        <h5 class="pl-5">Sat-Sun 9:00AM - 5:00PM</h5>
+                                        <h5 class="mb-3 mt-5">Phone Number</h5>
+                                        <h5 class="pl-5">+2349000000000</h5>
+                                        <h5 class="mb-3 mt-5">Ratings</h5>
+                                        <h5 class="pl-5">
+                                            <i class="fas fa-star fa-rate"></i>
+                                            <i class="fas fa-star fa-rate"></i>
+                                            <i class="fas fa-star fa-rate"></i>
+                                            <i class="fas fa-star fa-rate"></i>
+                                            <i class="fas fa-star fa-no-rate"></i>
+                                        </h5>
+                                        <h6 class="text-right mr-4 mt-5"><a href="#">Read More</a></h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="worship-church mb-5 mt-5 mr-sm-5 ml-sm-5">
+                            <div class="row">
+                                <div class="col-6">
+                                    <img class="w-100" src="https://images.unsplash.com/photo-1502590977968-bd45c3beeb21?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="">
+                                </div>
+                                <div class="col-6">
+                                    <div class="">
+                                        <h1 class="mb-4 mt-4">Church Name</h1>
+                                        <h5 class="mb-3">Opening Hours</h5>
+                                        <h5 class="pl-5">Mon-Fri 6:00AM - 7:00PM</h5>
+                                        <h5 class="pl-5">Sat-Sun 9:00AM - 5:00PM</h5>
+                                        <h5 class="mb-3 mt-5">Phone Number</h5>
+                                        <h5 class="pl-5">+2349000000000</h5>
+                                        <h5 class="mb-3 mt-5">Ratings</h5>
+                                        <h5 class="pl-5">
+                                            <i class="fas fa-star fa-rate"></i>
+                                            <i class="fas fa-star fa-rate"></i>
+                                            <i class="fas fa-star fa-rate"></i>
+                                            <i class="fas fa-star fa-rate"></i>
+                                            <i class="fas fa-star fa-no-rate"></i>
+                                        </h5>
+                                        <h6 class="text-right mr-4 mt-5"><a href="#">Read More</a></h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="worship-church mb-5 mt-5 mr-sm-5 ml-sm-5">
+                            <div class="row">
+                                <div class="col-6">
+                                    <img class="w-100" src="https://images.unsplash.com/photo-1502590977968-bd45c3beeb21?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=70" alt="">
+                                </div>
+                                <div class="col-6">
+                                    <div class="">
+                                        <h1 class="mb-4 mt-4">Church Name</h1>
+                                        <h5 class="mb-3">Opening Hours</h5>
+                                        <h5 class="pl-5">Mon-Fri 6:00AM - 7:00PM</h5>
+                                        <h5 class="pl-5">Sat-Sun 9:00AM - 5:00PM</h5>
+                                        <h5 class="mb-3 mt-5">Phone Number</h5>
+                                        <h5 class="pl-5">+2349000000000</h5>
+                                        <h5 class="mb-3 mt-5">Ratings</h5>
+                                        <h5 class="pl-5">
+                                            <i class="fas fa-star fa-rate"></i>
+                                            <i class="fas fa-star fa-rate"></i>
+                                            <i class="fas fa-star fa-rate"></i>
+                                            <i class="fas fa-star fa-rate"></i>
+                                            <i class="fas fa-star fa-no-rate"></i>
+                                        </h5>
+                                        <h6 class="text-right mr-4 mt-5"><a href="#">Read More</a></h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="worship-church mb-5 mt-5 mr-sm-5 ml-sm-5">
+                            <div class="row">
+                                <div class="col-6">
+                                    <img class="w-100" src="https://images.unsplash.com/photo-1502590977968-bd45c3beeb21?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=70" alt="">
+                                </div>
+                                <div class="col-6">
+                                    <div class="">
+                                        <h1 class="mb-4 mt-4">Church Name</h1>
+                                        <h5 class="mb-3">Opening Hours</h5>
+                                        <h5 class="pl-5">Mon-Fri 6:00AM - 7:00PM</h5>
+                                        <h5 class="pl-5">Sat-Sun 9:00AM - 5:00PM</h5>
+                                        <h5 class="mb-3 mt-5">Phone Number</h5>
+                                        <h5 class="pl-5">+2349000000000</h5>
+                                        <h5 class="mb-3 mt-5">Ratings</h5>
+                                        <h5 class="pl-5">
+                                            <i class="fas fa-star fa-rate"></i>
+                                            <i class="fas fa-star fa-rate"></i>
+                                            <i class="fas fa-star fa-rate"></i>
+                                            <i class="fas fa-star fa-rate"></i>
+                                            <i class="fas fa-star fa-no-rate"></i>
+                                        </h5>
+                                        <h6 class="text-right mr-4 mt-5"><a href="#">Read More</a></h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mt-5 pb-5">
+                    <a href="#" class="btn btn-lg btn-dark">See More</a>
+                </div>                
+            </div>
+        </section>
+        <section>
+
+        </section>        
+    </main>
+</body>    
+
+<!-- script -->
+<!-- Bootstrap -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
+<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+<script src="main.js"></script>
+</html>

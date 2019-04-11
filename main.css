@@ -1,0 +1,237 @@
+/* Body */
+body{
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    color: white;
+    overflow-x: hidden;
+}
+/* header style */
+header{
+    background:url("https://images.unsplash.com/photo-1478147427282-58a87a120781?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    
+}
+
+/* header::before{
+    background-color: rgba(0, 0, 0, 0.005);
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+} */
+
+
+.navbar-brand{
+    font-size: 2rem;
+}
+.navbar-light, .bg-light{
+    background: none !important;
+}
+
+nav{
+    border-bottom: 1px solid white;
+    color: white !important;
+}
+
+.navbar-brand, .nav-link{
+    color: white !important;
+}
+
+.header-text h1{
+    color: white !important;
+    padding-top: 4rem;
+    padding-bottom: 0rem;
+    font-size: 3rem;
+    
+}
+ .header-text h1 span{
+     color: #c82333;
+     font-size: inherit;
+     font-weight: bolder;
+ }
+
+ .header-sub-text{
+     color: white;
+     font-size: 2rem;
+ }
+
+ .search .row{
+     padding: 1rem 2rem !important;
+     /* margin: 0rem 0rem !important; */
+     border-color:rgba(70, 56, 57, 0.5);
+     border-width: 5rem 4rem !important;
+     border-style: solid;
+     border-radius: .5rem;
+ }
+
+ .search{
+     margin: 0rem 4rem;
+ }
+ .search .input-group-text{
+     background: white !important;
+ }
+
+ .search select{
+     border-radius: .4rem !important;
+     padding: 0.65rem;
+ }
+
+ .brand{
+     margin-top: 3rem;
+ }
+
+ .nav-tabs .nav-link.active{
+     background-color: rgba(200, 35, 51, 0.5) !important;
+ }
+
+ .nav-tabs .nav-link{
+     border: 1px solid rgba(200, 35, 51, 0.5) !important;
+     padding: 1rem;
+     font-size: 2rem;
+ }
+
+ .nav-tabs .nav-item {
+    margin-bottom: -1px;
+}
+
+ .nav-tabs {
+    border-bottom: none !important;
+    position: relative;
+    top: 5rem;
+    left: -1rem;
+}
+
+/* Main Section */
+
+/* Section  1 */
+#section1{
+    background-color: #c82333;
+    margin-top: 5rem;
+    font-size: 1.5rem !important;
+}
+
+#section1 h1 span{
+    border-bottom: 1px solid white;
+    /* padding-bottom: 1rem; */
+}
+
+.block{
+    margin-top: 7rem;
+    padding-bottom: 8rem;
+}
+
+/* Section 2 */
+#section2{
+    color: black;
+}
+
+.explore-states{
+    margin-top: 5rem;
+
+}
+
+.state-images{
+    padding: 0rem 3rem;
+}
+
+.state-images img{
+    height: 40rem;
+}
+
+.state-text{
+    background-color: rgba(0,0,0,0.65);
+    color: white !important;
+    position: relative;
+    top: -10.5rem
+}
+
+.state-images .col-lg-3{
+    max-width: inherit !important;
+}
+
+.state-images .col-12{
+    max-width: inherit !important;
+}
+.state-images .col-md-6{
+    max-width: inherit !important;
+}
+
+/* section3 starts here */
+
+#section3{
+    color: black;
+    margin-top: 5rem;
+}
+
+.add-ministry{
+    background-color: #c82333;
+    font-size: 2rem;
+    color: white;
+}
+
+.add-ministry-sub{
+    padding: 5rem 6rem;
+}
+
+.add-ministry .btn{
+    font-size: 1.3rem;
+    color: black;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+/* section4 starts here */
+
+#section4{
+    color: black;
+    background-color: rgb(218, 211, 211);
+}
+
+.worship-header{
+    padding: 5rem 0rem;
+}
+
+.worship-church{
+    background: white;
+    /* margin: 2rem 8rem; */
+    box-shadow: 0rem 1rem 1rem 0rem rgba(0,0,0,0.65)
+}
+
+.worship-church img{
+    padding: .3rem;
+}
+
+.fa-rate{
+    color: #ffc107;
+}
+
+.fa-no-rate{
+    color: gray;
+}
+
+.worship-church img{
+    height: 100%;
+}
+
+.worship .btn-lg{
+    padding:1rem 1.5rem;
+}
+
+.worship-church a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* section 5 starts here */
+#section5{
+    color: black;
+    background-color: rgb(156, 148, 148);
+}
+
+
+
+
