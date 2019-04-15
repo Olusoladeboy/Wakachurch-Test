@@ -111,7 +111,7 @@ nav{
 }
 
 .search-field{
-    background-color: rgba(37, 36, 44, 0.596)
+    background-color: rgba(37, 36, 44, 0.931)
 }
 
 /* Main Section */
@@ -329,4 +329,78 @@ nav{
 
 .sunday-worship-header{
     padding: 3rem 0;
+}
+
+.sunday-worship-body .card{
+    margin: 2rem;
+}
+
+.sunday-worship-body .chr-number, .sunday-worship-body .ratings{
+    text-align: initial !important;
+    padding-left: 3rem;
+}
+
+/* Section 8 */
+
+#section-8{
+    margin-top: 4rem;
+    color: black;
+    background-color: rgba(202, 200, 200, 0.39);    
+}
+
+/* Section 9 */
+#section-9{
+    margin-top: 4rem;
+    color: black;
+    background-color: rgba(202, 200, 200, 0.39);    
+}
+
+.dis-sub h5{
+    font-weight: bold;
+}
+
+/* section-10 */
+#section-10{
+    color: black;
+    background-color: #c82333;
+}
+
+.join-us{
+    padding-top: 5rem;
+}
+
+.join-us p{
+    font-size: 1.5rem;
+}
+
+.join i{
+    color: white;
+}
+
+a.btn-reg{
+    margin: 3rem 0;
+    color: #c82333;
+    background: white;
+    border: 1px solid #c82333;
+}
+/* section-11 */
+
+#section-11{
+    margin-top: 4rem;
+    color: black;
+    background-color: rgba(202, 200, 200, 0.39);
+}
+
+h5.month{
+    color: #c82333;
+}
+
+.event-time, .event-address, .attended{
+    font-size: .9rem;
+    font-weight: 500;
+    margin-bottom: .53rem;
+}
+
+.sub-info{
+    border-top: 1px solid #c82333;
 }
