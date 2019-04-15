@@ -9,16 +9,17 @@ body{
 header{
     background:url("https://images.unsplash.com/photo-1478147427282-58a87a120781?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60") ;
     background-size: cover;
+    /* background-color: black; */
     background-repeat: no-repeat;
     background-position: center;
     
     
 }
 
-.navbar-toggler-icon{
+/* .navbar-toggler-icon{
     color: white;
     background: white;
-}
+} */
 
 /* header::before{
     background-color: rgba(0, 0, 0, 0.005);
@@ -64,17 +65,17 @@ nav{
      font-size: 2rem;
  }
 
- .search .row{
+ /* .search .row{
      padding: 1rem 2rem !important;
-     /* margin: 0rem 0rem !important; */
+     margin: 0rem 0rem !important;
      border-color:rgba(70, 56, 57, 0.5);
      border-width: 5rem 4rem !important;
      border-style: solid;
      border-radius: .5rem;
- }
+ } */
 
  .search{
-     margin: 0rem 4rem;
+     margin: 2rem 0rem;
  }
  .search .input-group-text{
      background: white !important;
@@ -90,13 +91,14 @@ nav{
  }
 
  .nav-tabs .nav-link.active{
-     background-color: rgba(200, 35, 51, 0.5) !important;
+    background-color: rgb(37, 36, 44) !important;
  }
 
  .nav-tabs .nav-link{
-     border: 1px solid rgba(200, 35, 51, 0.5) !important;
-     padding: 1rem;
-     font-size: 2rem;
+     /* border: 1px solid rgb(37, 36, 44) !important; */
+     padding: .5rem 1rem;
+     background-color: rgba(37, 36, 44, 0.171) !important;
+     /* font-size: 2rem; */
  }
 
  .nav-tabs .nav-item {
@@ -105,9 +107,11 @@ nav{
 
  .nav-tabs {
     border-bottom: none !important;
-    position: relative;
-    top: 5rem;
-    left: -1rem;
+    /* margin: 0rem 3rem; */
+}
+
+.search-field{
+    background-color: rgba(37, 36, 44, 0.596)
 }
 
 /* Main Section */
@@ -174,12 +178,12 @@ nav{
 
 .add-ministry{
     background-color: #c82333;
-    font-size: 2rem;
+    font-size: 1.6rem;
     color: white;
 }
 
 .add-ministry-sub{
-    padding: 5rem 6rem;
+    /* padding: 5rem 6rem; */
 }
 
 .add-ministry .btn{
@@ -190,53 +194,139 @@ nav{
 }
 
 /* section4 starts here */
-
-#section4{
+#section-4{
     color: black;
-    background-color: rgb(218, 211, 211);
+    background-color: rgba(202, 200, 200, 0.39);
 }
 
-.worship-header{
-    padding: 5rem 0rem;
+.w-box{
+    background-color: white;
+    padding: .5rem;
+    border-radius: .2rem;
+    box-shadow: 0rem 1rem 1.5rem gray;
 }
 
-.worship-church{
-    background: white;
-    /* margin: 2rem 8rem; */
-    box-shadow: 0rem 1rem 1rem 0rem rgba(0,0,0,0.65)
+.p-t-w{
+    padding: 2rem 1rem 1rem 1rem;
 }
 
-.worship-church img{
-    padding: .3rem;
+.chr-name{
+    font-weight: bold;
+    font-size: 1.3rem;
 }
 
-.fa-rate{
-    color: #ffc107;
+.chr-hr{
+    font-weight: bold;
+    font-size: 1.1rem;
 }
 
-.fa-no-rate{
-    color: gray;
+.chr-time{
+    font-weight: bold;
+    font-size: .8rem;
+    text-align: right !important;
 }
 
-.worship-church img{
-    height: 100%;
+.chr-phone{
+    font-weight: bold;
+    font-size: 1.1rem;
 }
 
-.worship .btn-lg{
-    padding:1rem 1.5rem;
+.chr-number{
+    font-weight: bold;
+    font-size: .8rem;
+    text-align: center !important;
 }
 
-.worship-church a {
+.rating-head{
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.ratings{
+    color: yellow;
+    text-align: center;
+}
+
+.read-more a{
     text-decoration: none;
-    color: inherit;
+    color: inherit !important;
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: .8rem;
 }
 
-/* section 5 starts here */
-#section5{
+.col-img{
+    padding: 0;
+}
+
+/* section 5 */
+#section-5{
+    margin-top: 4rem;
     color: black;
-    background-color: rgb(156, 148, 148);
+    background-color: rgba(202, 200, 200, 0.39);
 }
 
+/* Section 6 */
+#section-6{
+    margin-top: 4rem;
+    color: black;
+    background-color: rgba(202, 200, 200, 0.39);
+}
+
+.discover-header{
+    padding: 3rem 0rem;
+}
+
+.dis-sub{
+    padding: 1rem 1rem;
+}
+
+.dis-sub h5{
+    font-size: 1rem;
+}
+
+#section-6 .img-thumbnail{
+    
+    margin: 0 .2rem;
+    margin-top: 2rem; 
+}
+
+.see-more{
+    margin-top: 3rem;
+    padding-bottom: 3rem;
+    text-align: center;
+}
+
+/* ========= */
 
 
+.tes-body .circle-icon-c{
+    position: relative;
+    top: -1.2rem;
+    left: 3rem;
+    width: 5rem;
+    border-width: .5rem;
 
+}
+
+.test-circle{
+    position: relative;
+    /* top: -3rem; */
+    margin: 0rem auto;
+    width:130px;
+    height:130px;
+    border:1px solid black;
+    border-radius:100%;
+   /* background:url(https://images.unsplash.com/photo-1551058624-e9390c71d17d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60) center no-repeat; */
+}
+
+/* Section 7 */
+#section-7{
+    margin-top: 4rem;
+    color: black;
+    background-color: rgba(202, 200, 200, 0.39);
+}
+
+.sunday-worship-header{
+    padding: 3rem 0;
+}
