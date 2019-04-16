@@ -277,6 +277,17 @@ nav{
     padding: 3rem 0rem;
 }
 
+.discover-follow .col-lg-3{
+    max-width: inherit !important;
+}
+
+.discover-follow .col-12{
+    max-width: inherit !important;
+}
+.discover-follow .col-md-6{
+    max-width: inherit !important;
+}
+
 .dis-sub{
     padding: 1rem 1rem;
 }
