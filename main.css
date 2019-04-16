@@ -404,3 +404,30 @@ h5.month{
 .sub-info{
     border-top: 1px solid #c82333;
 }
+
+/* Footer */
+footer{
+    margin-top: 4rem;
+    color: white;
+    background-color: #c82333;
+}
+
+.ministries p{
+    font-size: .8rem;
+}
+
+.social-media a{
+    text-decoration: none;
+    color: inherit !important;
+    font-size: 1.7rem;
+}
+
+.discover a, .company a{
+    text-decoration: none;
+    color: inherit !important;
+    display: block;
+}
+
+.copy{
+    border-top: 1px solid white;
+}
