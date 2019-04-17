@@ -3,18 +3,18 @@ body{
     background-color: antiquewhite;
 }
 
-.login-header{
+.signup-header{
     background-color: rgba(255, 0, 0, 0.781);
     color: white; 
     padding: 2rem;
     font-weight: bolder;
 }
 
-.login-header h3{
+.signup-header h3{
     font-weight: bolder;
 }
 
-.login-form{
+.signup-form{
     margin-top: 3rem;
 }
 
@@ -29,7 +29,7 @@ button{
 }
 
 form i{
-    font-size: .02rem !important;
+    /* font-size: .02rem !important; */
 }
 
 .rrequired:after { 
