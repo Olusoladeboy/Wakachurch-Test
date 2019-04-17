@@ -21,3 +21,4 @@ owl.owlCarousel({
     autoplayTimeout:3000,
     autoplayHoverPause:false
 });
+
