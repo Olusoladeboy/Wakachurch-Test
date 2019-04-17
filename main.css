@@ -1,6 +1,6 @@
 /* Body */
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     /* font-family: 'Roboto', sans-serif; */
     color: white;
     overflow-x: hidden !important;
@@ -49,7 +49,7 @@ nav{
 
 .header-text h1{
     color: white !important;
-    padding-top: 4rem;
+    padding-top: 7rem;
     padding-bottom: 0rem;
     font-size: 3rem;
     
@@ -75,7 +75,7 @@ nav{
  } */
 
  .search{
-     margin: 2rem 0rem;
+     margin: 5rem 0 1rem 0rem;
  }
  .search .input-group-text{
      background: white !important;
