@@ -200,10 +200,10 @@ nav{
 }
 
 .w-box{
-    background-color: white;
+    /* background-color: white; */
     padding: .5rem;
     border-radius: .2rem;
-    box-shadow: 0rem 1rem 1.5rem gray;
+    /* box-shadow: 0rem 1rem 1.5rem gray; */
 }
 
 .p-t-w{
@@ -211,31 +211,30 @@ nav{
 }
 
 .chr-name{
-    font-weight: bold;
+    font-weight: 500;
     font-size: 1.3rem;
 }
 
-.chr-hr{
+/* .chr-hr{
     font-weight: bold;
     font-size: 1.1rem;
-}
+} */
 
 .chr-time{
-    font-weight: bold;
-    font-size: .8rem;
-    text-align: right !important;
+    font-weight: lighter;
+    font-size: .95rem;
 }
 
 .chr-phone{
-    font-weight: bold;
-    font-size: 1.1rem;
+    font-weight: lighter;
+    font-size: .9rem;
 }
 
-.chr-number{
+/* .chr-number{
     font-weight: bold;
     font-size: .8rem;
     text-align: center !important;
-}
+} */
 
 .rating-head{
     font-weight: bold;
