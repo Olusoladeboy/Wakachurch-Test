@@ -14,11 +14,10 @@ $(document).ready(function(){
 
 
   $('.owl-carousel').owlCarousel({
-    stagePadding: 50,
+    stagePadding: 10,
     loop:true,
     margin:1,
     nav:true,
-
     autoplay:true,
     responsive:{
         0:{
