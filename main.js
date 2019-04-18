@@ -16,8 +16,9 @@ $(document).ready(function(){
   $('.owl-carousel').owlCarousel({
     stagePadding: 50,
     loop:true,
-    margin:10,
+    margin:1,
     nav:true,
+
     autoplay:true,
     responsive:{
         0:{
