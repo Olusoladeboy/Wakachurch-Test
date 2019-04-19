@@ -30,7 +30,9 @@ header{
     width: 100%;
 } */
 
-
+/* .navbar-brand img{
+    width: 10%;
+} */
 .navbar-brand{
     font-size: 2rem;
 }
@@ -488,6 +490,6 @@ body::-webkit-scrollbar-track {
 }
  
 body::-webkit-scrollbar-thumb {
-  background-color: #f68624;
+  background-color: #DA70D6;
   outline: 1px solid slategrey;
 }
