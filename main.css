@@ -16,6 +16,16 @@ header{
     
 }
 
+.btn-primary{
+    background: #DA70D6 !important;
+    border-color: #DA70D6 !important;
+}
+
+.btn-primary:hover{
+    background: rgb(212, 80, 208) !important;
+    border-color: rgb(212, 80, 208) !important;
+}
+
 /* .navbar-toggler-icon{
     color: white;
     background: white;
@@ -94,6 +104,11 @@ nav{
 
  .nav-tabs .nav-link.active{
     background-color: rgb(37, 36, 44) !important;
+    border-color: #DA70D6;
+ }
+
+ .nav-tabs .nav-link:hover{
+     border-color: #DA70D6;
  }
 
  .nav-tabs .nav-link{
@@ -113,7 +128,7 @@ nav{
 }
 
 .search-field{
-    background-color: rgba(37, 36, 44, 0.931)
+    background-color: rgba(39, 30, 42, 0.931)
 }
 
 /* Main Section */
@@ -121,8 +136,13 @@ nav{
 /* Section  1 */
 #section1{
     background-color: #DA70D6;
+    color: black;
     margin-top: 5rem;
     font-size: 1.5rem !important;
+}
+
+#section1 i{
+    color: white;
 }
 
 #section1 h1 span{
@@ -198,7 +218,7 @@ nav{
 .add-ministry{
     background-color: #DA70D6;
     font-size: 1.2rem;
-    color: white;
+    color: black;
 }
 
 .add-ministry-sub{
