@@ -53,18 +53,18 @@ nav{
     color: white !important;
     padding-top: 7rem;
     padding-bottom: 0rem;
-    font-size: 3rem;
+    font-size: 2rem;
     
 }
  .header-text h1 span{
-     color: #c82333;
+     color: #DA70D6;
      font-size: 1.1em;
      font-weight: bolder;
  }
 
  .header-sub-text{
      color: white;
-     font-size: 1.4rem;
+     font-size: 1.2em;
  }
 
  /* .search .row{
@@ -120,7 +120,7 @@ nav{
 
 /* Section  1 */
 #section1{
-    background-color: #c82333;
+    background-color: #DA70D6;
     margin-top: 5rem;
     font-size: 1.5rem !important;
 }
@@ -186,6 +186,9 @@ nav{
 }
 
 /* section3 starts here */
+.text-purple{
+    color: #DA70D6 !important;
+}
 
 #section3{
     color: black;
@@ -193,7 +196,7 @@ nav{
 }
 
 .add-ministry{
-    background-color: #c82333;
+    background-color: #DA70D6;
     font-size: 1.2rem;
     color: white;
 }
@@ -387,7 +390,7 @@ nav{
 /* section-10 */
 #section-10{
     color: black;
-    background-color: #c82333;
+    background-color: #DA70D6;
 }
 
 .join-us{
@@ -433,8 +436,8 @@ h5.month{
 /* Footer */
 footer{
     margin-top: 4rem;
-    color: white;
-    background-color: #c82333;
+    color: black;
+    background-color: #DA70D6;
 }
 
 .ministries p{
