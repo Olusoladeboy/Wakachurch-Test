@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>wakachurch</title>
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="main.css">
+    <!-- Googel Font -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <!-- Font-awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css" integrity="sha384-Mmxa0mLqhmOeaE8vgOSbKacftZcsNYDjQzuCOm6D02luYSzBG8vpaOykv9lFQ51Y" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <!-- Navbar -->
+        
+        <nav class="navbar p-0 navbar-expand-lg navbar-light bg-light">
+            
+
+            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand m-0 p-0 pt-0 pb-0" href="../index.html">
+                <img src="../logo.png" alt="site-logo" class="" width="200" height="55" class="d-inline-block align-top">
+            </a>
+            
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav ml-auto pr-4 pt-3 pb-3 mt-2 mt-lg-0">
+                <!-- <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li> -->
+                <li class="nav-item">
+                    <a class="nav-link pl-1" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link pl-1" href="#">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link pl-1" href="#">Add Event</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link pl-1" href="#">Add Ministry</a>
+                </li>
+                <li class="nav-link pl-1 pt-1 mr-3 p-0">
+                    <a href="auth/login.html" class="btn btn-danger ">Login</a>
+                </li>
+                <li class="nav-link pl-1 pt-1 p-0">
+                    <a href="auth/signup.html" class="btn btn-success">Sign Up</a>
+                </li>
+                </ul>
+                
+            </div>                          
+        </nav>
+    </header>
+    <main class="mt-5">
+        <section id="section-1">
+            <div class="container">
+                <div class="text-center pt-3">
+                    <h1 class="font-weight-bold">Add Listing</h1>
+                    <h6 class="font-weight-bold">Make sure you fill out adequate and correct information about your Church, Choir & Band.</h6>
+                </div>
+            </div>
+        </section>
+        <section id="section-2">
+            <div class="container">
+                <div class="form">
+                    <form action="" method="post">
+
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <select name="" class="form-group w-100" id="chr-select">
+                                    <option value="">Select Church, Choir or Band</option>
+                                    <option value="">...</option>
+                                </select>                                 
+                            </div>
+                            <div class="col-lg-7"></div>
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <label for="formGroupExampleInput"></label>
+                                    <input type="text" class="form-control form-input" id="formGroupExampleInput" placeholder="First Name">
+                                </div>                                
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <label for="formGroupExampleInput"></label>
+                                    <input type="text" class="form-control form-input" id="formGroupExampleInput" placeholder="Slogan">
+                                </div>                                
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <label for="formGroupExampleInput"></label>
+                                    <textarea class="form-control form-input" id="formGroupExampleInput" rows="7" placeholder="Mission"></textarea>
+                                </div>                                
+                            </div>   
+                            <div class="col-lg-6">
+                                <div class="form-group label form-control form-input"><span class="text-dark">Logo</span>
+                                    <label class="img-upload " for="file"> Upload Image</label>
+                                    <!-- <input type="text" disabled class="form-control form-input" id="formGroupExampleInput" placeholder="Logo"> -->
+                                    <input type="file" class="form-control " id="file" accept="image/*" >
+                                </div>                                
+                            </div> 
+                            <div class="col-lg-6">
+                                <select name="" class="form-group mt-4 w-100" id="chr-select">
+                                    <option value="">Select State</option>
+                                    <option value="">...</option>
+                                </select>                                
+                            </div> 
+                            <div class="col-lg-6">
+                                <select name="" class="form-group mt-4 w-100" id="chr-select">
+                                    <option value="">Select Country</option>
+                                    <option value="">...</option>
+                                </select>                                
+                            </div>
+                            <div class="col-12">
+                                <div class="mt-4">
+                                    <h5>Opening Hours</h5>
+                                    <div class="op-hrs row">
+                                        <div class="col-1 warning">
+                                            <i class="p-1 fa-2x fas fa-exclamation-circle"></i>
+                                        </div>
+                                        <div class="col-11">
+                                            <p>
+                                                If your Church has two working hours (for example one at AM and another one at PM), use all the four fields
+                                                for each day. If not, just use the first two. If your church is not opening on some of the days, simply leave
+                                                the field empty                                                
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                                                                                                                                                       
+                        </div>                        
+                       
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
