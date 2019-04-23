@@ -35,7 +35,8 @@ nav{
 
 #section-2 .container{
     background: white;
-    box-shadow: 0rem 1rem .7rem rgb(206, 205, 205);
+    box-shadow: 0rem 1rem .5rem rgb(206, 205, 205);
+    margin-bottom: 30rem;
 }
 
 .form{
@@ -118,6 +119,34 @@ input[type="file"] {
     display: none;
 }
 
+label.g-img{
+    left: 7em;
+}
+
+/* input.agree {
+    -webkit-appearance:none;
+    width:30px;
+    height:30px;
+    background:white;
+    border-radius:5px;
+    border:2px solid #555;
+}
+input.agree:checked {
+    background: #abd;
+} */
+
+.agree{
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+}
+
+.agree .btn{
+    padding: 1.3rem 3rem;
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-top: 1.7rem;
+}
+
 /* Footer */
 footer{
     margin-top: 4rem;
@@ -144,4 +173,6 @@ footer{
 .copy{
     border-top: 1px solid white;
 }
+
+
 
