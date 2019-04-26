@@ -22,7 +22,7 @@
     <header>
         <nav>
             <div class="container text-center">
-                <h1><i class="fas fa-gem"></i> ADD EVENT</h1>
+                <h3><i class="fas fa-gem"></i>ADD EVENT</h3>
             </div>
         </nav>
         <div class="header-text">
@@ -94,12 +94,81 @@
                     <div class="col-12">
                         <div class="form-group input-group">
                             <div class="input-group-prepend">
-                                <span class="input-group-text" id="basic-addon1"><i class="fas fa-map-marker-alt"></i></span>
+                                <span class="input-group-text" id="location"><i class="fas fa-map-marker-alt"></i></span>
                             </div>                            
                             <label for="formGroupExampleInput"></label>
-                            <input type="text" class="form-control form-input" id="formGroupExampleInput" placeholder="Location" aria-label="Location" aria-describedby="basic-addon1">
+                            <input type="text" class="form-control form-input" id="formGroupExampleInput" placeholder="Location" aria-label="Location" aria-describedby="location">
                         </div>                                
-                    </div>                     
+                    </div>
+                    <div class="col-12">
+                        <div class="form-group input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="details"><i class="fas fa-pencil-alt"></i></span>
+                            </div>                            
+                            <label for="formGroupExampleInput"></label>
+                            <input type="text" class="form-control form-input" id="formGroupExampleInput" placeholder="Details" aria-label="details" aria-describedby="details">
+                        </div>                                
+                    </div> 
+                    <div class="col-12">
+                        <div class="form-group input-group w-100 mb-3">
+                            <div class="input-group-prepend">
+                                <label class="input-group-text" for="state"><i class="fas fa-home"></i></label>
+                            </div>
+                            <select class="custom-select" id="state">
+                                <option value="">Select State</option>
+                                <option value="Lagos">Lagos</option>
+                                <option value="Oyo">Oyo</option>
+                                <option value="Kaduna">Kaduna</option>
+                                <option value="Kano">Kano</option>
+                                <option value="Rivers">Rivers</option>
+                                <option value="Bauchi">Bauchi</option>
+                                <option value="Jigawa">Jigawa</option>
+                                <option value="Benue">Benue</option>
+                                <option value="Anambra">Anambra</option>
+                                <option value="Borno">Borno</option>
+                                <option value="Delta">Delta</option>
+                                <option value="Niger">Niger</option>
+                                <option value="Imo">Imo</option>
+                                <option value="Akwa Ibom">Awka Ibom</option>
+                                <option value="Ogun">Ogun</option>
+                                <option value="Sokoto">Sokoto</option>
+                                <option value="Ondo">Ondo</option>
+                                <option value="Osun">Osun</option>
+                                <option value="Kogi">Kogi</option>
+                                <option value="Zamfara">Zamfara</option>
+                                <option value="Enugu">Enugu</option>
+                                <option value="Kebbi">Kebbi</option>
+                                <option value="Edo">Edo</option>
+                                <option value="Plateau">Plateau</option>
+                                <option value="Adamawa">Adamawa</option>
+                                <option value="Cross RIver">Cross RIver</option>
+                                <option value="Abia">Abia</option>
+                                <option value="Ekiti">Ekiti</option>
+                                <option value="Kwara">Kwara</option>
+                                <option value="Gombe">Gombe</option>
+                                <option value="Yobe">Yobe</option>
+                                <option value="Taraba">Taraba</option>
+                                <option value="Ebonyi">Ebonyi</option>                                            
+                                <option value="Nasarawa">Nasarawa</option>                                            
+                                <option value="Bayelsa">Bayelsa</option>                                            
+                                <option value="FCT">FCT</option>
+                            </select>
+                        </div>                                                        
+                    </div>
+                    <div class="col-12">
+                        <div class="form-group input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="co-hosts"><i class="fas fa-user-friends"></i></span>
+                            </div>                            
+                            <label for="formGroupExampleInput"></label>
+                            <input type="text" class="form-control form-input" id="formGroupExampleInput" placeholder="Co-host(s)" aria-label="co-hosts" aria-describedby="co-hosts">
+                        </div>                                
+                    </div>
+                    <div class="col-12">
+                        <div class="text-center sub">
+                            <button type="submit" class="btn btn-danger btn-lg">Create</button>                                                                
+                        </div>
+                    </div>                                                                                 
                 </form>
             </div>
         </div>

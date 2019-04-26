@@ -11,7 +11,7 @@ nav{
     background: #DA70D6;
 }
 
-nav h1{
+nav h3{
     padding: 2rem;
 }
 
@@ -44,6 +44,12 @@ main .container{
     padding: 2rem 1rem !important;
     font-size: 1.0002em;
 }
+#state{
+    padding: 1.2rem 2rem;
+    background: rgba(206, 205, 205, 0.267);
+    font-size: 1.4rem;
+    height: auto;
+}
 
 label.img-upload{
     padding: .5rem 2rem;
@@ -60,6 +66,11 @@ label.img-upload{
 
 input[type="file"] {
     display: none;
+}
+
+.sub .btn{
+    background: rgb(87, 45, 85);
+    border-color: rgb(65, 33, 63);
 }
 
 .label span{
