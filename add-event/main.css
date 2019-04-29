@@ -29,7 +29,7 @@ main .container{
 }
 
 .add-photo.form-input{
-    padding: 8rem;
+    padding: 3rem 7rem 5rem 7rem;
     background: rgba(206, 205, 205, 0.267);
     font-size: 1.4rem;
 
@@ -45,7 +45,7 @@ main .container{
 }
 
 .a-input{
-    padding: 2rem 1rem !important;
+    padding: 2rem 1rem 2rem .7rem !important;
     font-size: 1.0002em;
 }
 #state{
