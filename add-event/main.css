@@ -61,10 +61,9 @@ label.img-upload{
     box-shadow: 0rem -.2rem .5rem rgba(0, 0, 0, 0.438);
     display: table;
     color: white;
-    /* position: relative;
-    top: 0em;
-    left: 20em; */
-    font-size: 1rem;
+    position: relative;
+    top: -.2rem;
+    font-size: .8rem;
     border-radius: .2rem;
 }
 
