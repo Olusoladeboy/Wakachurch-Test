@@ -62,8 +62,8 @@ label.img-upload{
     display: table;
     color: white;
     position: relative;
-    top: -.2rem;
-    font-size: .8rem;
+    left: -1rem;
+    font-size: .6em;
     border-radius: .2rem;
 }
 
