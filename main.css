@@ -6,7 +6,7 @@ body{
     overflow-x: hidden !important;
 }
 /* header style */
-header{
+#main-header{
     background:url("https://images.unsplash.com/photo-1478147427282-58a87a120781?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60") ;
     background-size: cover;
     /* background-color: black; */
@@ -515,4 +515,280 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
   background-color: #DA70D6;
   outline: 1px solid slategrey;
+}
+
+
+/*  */
+/*  */
+/*  */
+/* ========================= */
+/* ADD-LISITING CSS */
+#al-body{
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    color: black;
+    overflow-x: hidden !important;
+    background: rgba(177, 175, 175, 0.267);
+}
+.navbar-brand{
+    font-size: 2rem;
+}
+.navbar-light, .bg-light{
+    background: none !important;
+}
+
+.al-nav-item{
+    padding-top: .6rem;
+    padding-right: .5rem;
+    padding-left: .3rem;
+}
+
+#al-nav{
+    /* border-bottom: 1px solid white; */
+    color: white !important;
+    border: none !important;
+}
+
+#al-header{
+    background-color: #DA70D6;
+}
+
+.navbar-brand, .al-nav-link{
+    color: black !important;
+    font-weight: bold;
+}
+
+/* Section 1 */
+#al-section-1{
+    background-color: #DA70D6;
+}
+#al-section-1 h1{
+    font-size: 2.8rem;
+    font-weight: bolder;
+    background-color: #DA70D6;
+}
+
+/* Section 2 */
+#al-section-2{
+    margin-top: 0rem;
+}
+
+#al-section-2 .container{
+    background: white;
+    box-shadow: 0rem 1rem .5rem rgb(206, 205, 205);
+    margin-bottom: 30rem;
+}
+
+.al-form{
+    padding: 1rem;
+    font-size: 1.4rem;
+}
+
+#al-chr-select:optional{
+    background: rgba(206, 205, 205, 0.267);
+    padding: 1.5rem;
+    border: 1px solid rgba(206, 205, 205, 0.267);
+    font-weight: 300;
+    border-radius: .3rem;
+} 
+
+
+
+.form-input{
+    padding: 2.5rem;
+    background: rgba(206, 205, 205, 0.267);
+    font-size: 1.4rem;
+
+}
+
+textarea.form-input{
+    padding: 1rem 2.5rem;
+}
+
+/* input[type="file"] {
+    position: relative;
+    top: -3.7rem;
+    background: none;
+    border: none;
+    left: 7rem;
+} */
+
+label.al-img-upload{
+    padding: .5rem 2rem;
+    background: white; 
+    box-shadow: 0rem -.2rem .5rem rgba(0, 0, 0, 0.438);
+    display: table;
+    color: black;
+    position: relative;
+    top: -3.4rem;
+    left: 4rem;
+    font-size: 1rem;
+    border-radius: .2rem;
+}
+
+.label span{
+    position: relative;
+    top: -1rem;
+}
+
+.label{
+    margin-top: 2.2rem;
+}
+
+.text-purple{
+    color: rgb(212, 80, 208);
+}
+
+.op-hrs{
+    margin-top: 1.2rem;
+    color: rgb(212, 80, 208) !important;
+    font-size: 1rem;
+}
+
+.col-1.warning{
+    -ms-flex: 0 0 8.333333%;
+    flex: 0 0 8.333333%;
+    max-width: 3.533333%;
+}
+
+
+
+input[type="file"] {
+    display: none;
+}
+
+label.g-img{
+    left: 3.5em;
+}
+.gallery .label span{
+    left: -2rem;
+}
+
+/* input.agree {
+    -webkit-appearance:none;
+    width:30px;
+    height:30px;
+    background:white;
+    border-radius:5px;
+    border:2px solid #555;
+}
+input.agree:checked {
+    background: #abd;
+} */
+
+.agree{
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+}
+
+.agree .btn{
+    padding: 1.3rem 3rem;
+    font-weight: bold;
+    font-size: 1.3em;
+    margin-top: 1.7rem;
+}
+
+
+
+/* =========================== */
+/* Add event css */
+#ae-body{
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    color: black;
+    overflow-x: hidden !important;
+    background: rgba(177, 175, 175, 0.267);
+}
+
+.navvv{
+    background: #DA70D6 !important;
+}
+
+/* Header */
+#ae-nav{
+    background: #DA70D6;
+    
+}
+
+#ae-nav h3{
+    padding: 2rem;
+    color: black;
+}
+
+.ae-header-text h3{
+    font-size: 1em;
+}
+
+/* main */
+#ae-main .container{
+    background: white;
+}
+
+.ae-form{
+    padding: .5rem;
+}
+
+.add-photo.form-input{
+    padding: 3rem 7rem 5rem 7rem;
+    background: rgba(206, 205, 205, 0.267);
+    font-size: 1.4rem;
+
+
+}
+
+.form-input{
+    padding: 2rem;
+    background: rgba(206, 205, 205, 0.267);
+    font-size: 1.4rem;
+
+
+}
+
+.a-input{
+    padding: 1.7rem 1rem 1.7rem .5rem !important;
+    font-size: 1.0002em;
+}
+
+/* .a-input::after{
+    padding-top: 0rem;
+} */
+#state{
+    padding: 1.2rem 2rem;
+    background: rgba(206, 205, 205, 0.267);
+    font-size: 1.4rem;
+    height: auto;
+}
+
+label.ae-img-upload{
+    padding: .5rem 2rem;
+    background: black; 
+    box-shadow: 0rem -.2rem .5rem rgba(0, 0, 0, 0.438);
+    display: table;
+    color: white;
+    position: relative;
+    left: -.8rem;
+    font-size: .5em;
+    border-radius: .2rem;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.sub .btn{
+    background: rgb(87, 45, 85);
+    border-color: rgb(65, 33, 63);
+}
+
+.label span{
+    /* position: relative;
+    top: -1rem; */
+}
+
+/* .label{
+    margin-top: 2.2rem;
+} */
+
+.text-purple{
+    color: rgb(212, 80, 208);
 }

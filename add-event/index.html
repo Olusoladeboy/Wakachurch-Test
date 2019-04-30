@@ -12,32 +12,69 @@
     <!-- Bootstrap CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Main Stylesheet -->
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="../main.css">
     <!-- Googel Font -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <!-- Font-awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css" integrity="sha384-Mmxa0mLqhmOeaE8vgOSbKacftZcsNYDjQzuCOm6D02luYSzBG8vpaOykv9lFQ51Y" crossorigin="anonymous">
 </head>
-<body>
+<body id="ae-body">
+    <nav id="al-nav" class="navvv navbar p-0 navbar-expand-lg navbar-light bg-light">
+        
+
+        <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand m-0 p-0 pt-0 pb-0" href="../index.html">
+            <img src="../logo-w.png" alt="site-logo" class="" width="200" height="55" class="d-inline-block align-top">
+        </a>
+        
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav ml-auto pr-4 pt-3 pb-3 mt-2 mt-lg-0">
+            <!-- <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li> -->
+            <li class="nav-item al-nav-item">
+                <a class="al-nav-link pl-1" href="#">About Us</a>
+            </li>
+            <li class="nav-item al-nav-item">
+                <a class="al-nav-link pl-1" href="#">Contact Us</a>
+            </li>
+            <li class="nav-item al-nav-item">
+                <a class="al-nav-link pl-1" href="../add-event/index.html">Add Event</a>
+            </li>
+            <li class="nav-item al-nav-item">
+                <a class="al-nav-link pl-1" href="../add-listing/index.html">Add Ministry</a>
+            </li>
+            <li class="al-nav-link pl-1 pt-1 mr-3 p-0">
+                <a href="auth/login.html" class="btn btn-danger ">Login</a>
+            </li>
+            <li class="al-nav-link pl-1 pt-1 p-0">
+                <a href="auth/signup.html" class="btn btn-success">Sign Up</a>
+            </li>
+            </ul>
+            
+        </div>                          
+    </nav>    
     <header>
-        <nav>
+        <nav id="ae-nav">
             <div class="container text-center">
                 <h3><i class="fas fa-gem"></i>ADD EVENT</h3>
             </div>
         </nav>
-        <div class="header-text">
+        <div class="ae-header-text">
             <div class="container">
                 <h3 class="text-center p-5"><span class="text-justify">Expose your events to thousands of members on wakachurch</span></h3>
             </div>
         </div>
     </header>
-    <main>
+    <main id="ae-main">
         <div class="container">
-            <div class="form">
+            <div class="ae-form">
                 <form action="" class="row" method="post">
                     <div class="col-12">
                         <div class="add-photo form-group label form-control form-input">
-                            <label class="img-upload mx-auto" for="file"> Add Photo</label>
+                            <label class="ae-img-upload mx-auto" for="file"> Add Photo</label>
                             <!-- <input type="text" disabled class="form-control form-input" id="formGroupExampleInput" placeholder="Logo"> -->
                             <input type="file" class="" id="file" accept="image/*" >
                         </div>                         
@@ -252,5 +289,5 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
 <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
 <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-<script src="main.js"></script>
+<script src="../main.js"></script>
 </html>    

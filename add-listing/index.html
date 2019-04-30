@@ -12,18 +12,18 @@
     <!-- Bootstrap CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Main Stylesheet -->
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="../main.css">
     <!-- Googel Font -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <!-- Font-awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css" integrity="sha384-Mmxa0mLqhmOeaE8vgOSbKacftZcsNYDjQzuCOm6D02luYSzBG8vpaOykv9lFQ51Y" crossorigin="anonymous">
 </head>
-<body>
+<body id="al-body">
     <!-- Header -->
-    <header>
+    <header id="al-header">
         <!-- Navbar -->
         
-        <nav class="navbar p-0 navbar-expand-lg navbar-light bg-light">
+        <nav id="al-nav" class="navbar p-0 navbar-expand-lg navbar-light bg-light">
             
 
             <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,22 +38,22 @@
                 <!-- <li class="nav-item active">
                     <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li> -->
-                <li class="nav-item">
-                    <a class="nav-link pl-1" href="#">About Us</a>
+                <li class="nav-item al-nav-item">
+                    <a class="al-nav-link pl-1" href="#">About Us</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link pl-1" href="#">Contact Us</a>
+                <li class="nav-item al-nav-item">
+                    <a class="al-nav-link pl-1" href="#">Contact Us</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link pl-1" href="#">Add Event</a>
+                <li class="nav-item al-nav-item">
+                    <a class="al-nav-link pl-1" href="#">Add Event</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link pl-1" href="#">Add Ministry</a>
+                <li class="nav-item al-nav-item">
+                    <a class="al-nav-link pl-1" href="#">Add Ministry</a>
                 </li>
-                <li class="nav-link pl-1 pt-1 mr-3 p-0">
+                <li class="al-nav-link pl-1 pt-1 mr-3 p-0">
                     <a href="auth/login.html" class="btn btn-danger ">Login</a>
                 </li>
-                <li class="nav-link pl-1 pt-1 p-0">
+                <li class="al-nav-link pl-1 pt-1 p-0">
                     <a href="auth/signup.html" class="btn btn-success">Sign Up</a>
                 </li>
                 </ul>
@@ -62,7 +62,7 @@
         </nav>
     </header>
     <main class="">
-        <section id="section-1" class="pt-5 pb-5">
+        <section id="al-section-1" class="pt-5 pb-5">
             <div class="container">
                 <div class="text-center pt-3">
                     <h1 class="font-weight-bold">Add Listing</h1>
@@ -70,14 +70,13 @@
                 </div>
             </div>
         </section>
-        <section id="section-2">
+        <section id="al-section-2">
             <div class="container">
-                <div class="form">
+                <div class="al-form">
                     <form action="" method="post">
-
                         <div class="row">
                             <div class="col-lg-5">
-                                <select name="" class="form-group w-100" id="chr-select">
+                                <select name="" class="form-group w-100" id="al-chr-select">
                                     <option value="">Ministry Options</option>
                                     <option value="Church">Church</option>
                                     <option value="Band">Choir</option>
@@ -105,13 +104,13 @@
                             </div>   
                             <div class="col-lg-6">
                                 <div class="form-group label form-control form-input"><span class="text-dark">Logo</span>
-                                    <label class="img-upload " for="file"> Upload Image</label>
+                                    <label class="al-img-upload " for="file"> Upload Image</label>
                                     <!-- <input type="text" disabled class="form-control form-input" id="formGroupExampleInput" placeholder="Logo"> -->
                                     <input type="file" class="form-control " id="file" accept="image/*" >
                                 </div>                                
                             </div> 
                             <div class="col-lg-6">
-                                <select name="" class="form-group mt-4 w-100" id="chr-select">
+                                <select name="" class="form-group mt-4 w-100" id="al-chr-select">
                                     <option value="">Select State</option>
                                     <option value="Lagos">Lagos</option>
                                     <option value="Oyo">Oyo</option>
@@ -152,7 +151,7 @@
                                 </select>                                
                             </div> 
                             <div class="col-lg-6">
-                                <select name="" class="form-group mt-4 w-100" id="chr-select">
+                                <select name="" class="form-group mt-4 w-100" id="al-chr-select">
                                     <option value="">Select Country</option>
                                     <option value="Nigeria" class="">Nigeria</option>
                                 </select>                                
@@ -670,7 +669,7 @@
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="form-group label form-control form-input"><span class="text-dark">Image 1</span>
-                                            <label class="img-upload g-img" for="file"> Upload Image</label>
+                                            <label class="al-mg-upload g-img" for="file"> Upload Image</label>
                                             <!-- <input type="text" disabled class="form-control form-input" id="formGroupExampleInput" placeholder="Logo"> -->
                                             <input type="file" class="form-control " id="file" accept="image/*" >
                                         </div>                                            
@@ -678,7 +677,7 @@
                                     <div class="col-lg-6"></div> 
                                     <div class="col-lg-6">
                                         <div class="form-group label form-control form-input"><span class="text-dark">Image 2</span>
-                                            <label class="img-upload g-img" for="file"> Upload Image</label>
+                                            <label class="al-img-upload g-img" for="file"> Upload Image</label>
                                             <!-- <input type="text" disabled class="form-control form-input" id="formGroupExampleInput" placeholder="Logo"> -->
                                             <input type="file" class="form-control " id="file" accept="image/*" >
                                         </div>                                            
@@ -686,7 +685,7 @@
                                     <div class="col-lg-6"></div> 
                                     <div class="col-lg-6">
                                         <div class="form-group label form-control form-input"><span class="text-dark">Image 3</span>
-                                            <label class="img-upload g-img" for="file"> Upload Image</label>
+                                            <label class="al-img-upload g-img" for="file"> Upload Image</label>
                                             <!-- <input type="text" disabled class="form-control form-input" id="formGroupExampleInput" placeholder="Logo"> -->
                                             <input type="file" class="form-control " id="file" accept="image/*" >
                                         </div>                                            
@@ -699,7 +698,7 @@
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="form-group label form-control form-input"><span class="text-dark">Image 1</span>
-                                            <label class="img-upload g-img" for="file"> Upload Image</label>
+                                            <label class="al-img-upload g-img" for="file"> Upload Image</label>
                                             <!-- <input type="text" disabled class="form-control form-input" id="formGroupExampleInput" placeholder="Logo"> -->
                                             <input type="file" class="form-control " id="file" accept="image/*" >
                                         </div>                                            
@@ -707,7 +706,7 @@
                                     <div class="col-lg-6"></div> 
                                     <div class="col-lg-6">
                                         <div class="form-group label form-control form-input"><span class="text-dark">Image 2</span>
-                                            <label class="img-upload g-img" for="file"> Upload Image</label>
+                                            <label class="al-img-upload g-img" for="file"> Upload Image</label>
                                             <!-- <input type="text" disabled class="form-control form-input" id="formGroupExampleInput" placeholder="Logo"> -->
                                             <input type="file" class="form-control " id="file" accept="image/*" >
                                         </div>                                            
@@ -715,7 +714,7 @@
                                     <div class="col-lg-6"></div> 
                                     <div class="col-lg-6">
                                         <div class="form-group label form-control form-input"><span class="text-dark">Image 3</span>
-                                            <label class="img-upload g-img" for="file"> Upload Image</label>
+                                            <label class="al-img-upload g-img" for="file"> Upload Image</label>
                                             <!-- <input type="text" disabled class="form-control form-input" id="formGroupExampleInput" placeholder="Logo"> -->
                                             <input type="file" class="form-control " id="file" accept="image/*" >
                                         </div>                                            
@@ -728,7 +727,7 @@
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="form-group label form-control form-input"><span class="text-dark">Image 1</span>
-                                            <label class="img-upload g-img" for="file"> Upload Image</label>
+                                            <label class="al-img-upload g-img" for="file"> Upload Image</label>
                                             <!-- <input type="text" disabled class="form-control form-input" id="formGroupExampleInput" placeholder="Logo"> -->
                                             <input type="file" class="form-control " id="file" accept="image/*" >
                                         </div>                                            
@@ -736,7 +735,7 @@
                                     <div class="col-lg-6"></div> 
                                     <div class="col-lg-6">
                                         <div class="form-group label form-control form-input"><span class="text-dark">Image 2</span>
-                                            <label class="img-upload g-img" for="file"> Upload Image</label>
+                                            <label class="al-img-upload g-img" for="file"> Upload Image</label>
                                             <!-- <input type="text" disabled class="form-control form-input" id="formGroupExampleInput" placeholder="Logo"> -->
                                             <input type="file" class="form-control " id="file" accept="image/*" >
                                         </div>                                            
@@ -744,7 +743,7 @@
                                     <div class="col-lg-6"></div> 
                                     <div class="col-lg-6">
                                         <div class="form-group label form-control form-input"><span class="text-dark">Image 3</span>
-                                            <label class="img-upload g-img" for="file"> Upload Image</label>
+                                            <label class="al-img-upload g-img" for="file"> Upload Image</label>
                                             <!-- <input type="text" disabled class="form-control form-input" id="formGroupExampleInput" placeholder="Logo"> -->
                                             <input type="file" class="form-control " id="file" accept="image/*" >
                                         </div>                                            
@@ -844,5 +843,5 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
 <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
 <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-<script src="main.js"></script>
+<script src="../main.js"></script>
 </html>
