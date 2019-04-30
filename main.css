@@ -792,3 +792,18 @@ input[type="file"] {
 .text-purple{
     color: rgb(212, 80, 208);
 }
+
+/*  */
+/* Info  */
+#info-body{
+    background: #DA70D6;
+}
+
+
+.i-header{
+    color: black;
+}
+
+.i-body{
+    color: black;
+}
