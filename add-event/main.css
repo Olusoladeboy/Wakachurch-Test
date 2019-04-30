@@ -16,7 +16,7 @@ nav h3{
 }
 
 .header-text h3{
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 /* main */
@@ -45,9 +45,13 @@ main .container{
 }
 
 .a-input{
-    padding: 2rem 1rem 2rem .7rem !important;
+    padding: 1.7rem 1rem 1.7rem .5rem !important;
     font-size: 1.0002em;
 }
+
+/* .a-input::after{
+    padding-top: 0rem;
+} */
 #state{
     padding: 1.2rem 2rem;
     background: rgba(206, 205, 205, 0.267);
@@ -62,8 +66,8 @@ label.img-upload{
     display: table;
     color: white;
     position: relative;
-    left: -1rem;
-    font-size: .6em;
+    left: -.8rem;
+    font-size: .5em;
     border-radius: .2rem;
 }
 
