@@ -43,3 +43,19 @@ $(document).ready(function(){
 //     autoplayHoverPause:false
 // });
 
+$("#al-chr-select").change(function(){
+
+    $('#chgTxt').text($(this).val());
+
+    alert('Ministry: ' + $(this).val());
+});
+
+$('#condition').change(function(){
+    if($('#condition').is(':checked') == true){
+        $('#btn-condition').addClass('condition');
+    }
+    else if($('#condition').is(':checked') == false){
+        $('#btn-condition').removeClass('condition');
+    }
+});
+

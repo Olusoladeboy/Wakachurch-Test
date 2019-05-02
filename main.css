@@ -807,3 +807,11 @@ input[type="file"] {
 .i-body{
     color: black;
 }
+
+.condition{
+    display: inline-block !important;
+}
+
+a.btn-dark{
+    display: none;
+}
