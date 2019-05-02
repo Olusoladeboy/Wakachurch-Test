@@ -810,6 +810,9 @@ input[type="file"] {
 
 .condition{
     display: inline-block !important;
+    margin-top: 3rem;
+    font-size: 1.3rem;
+    padding: 1rem 1.5rem;
 }
 
 a.btn-dark{

@@ -47,7 +47,7 @@ $("#al-chr-select").change(function(){
 
     $('#chgTxt').text($(this).val());
 
-    alert('Ministry: ' + $(this).val());
+    // alert('Ministry: ' + $(this).val());
 });
 
 $('#condition').change(function(){
