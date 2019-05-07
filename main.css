@@ -818,3 +818,99 @@ input[type="file"] {
 a.btn-dark{
     display: none;
 }
+
+/*  */
+/* Login Page */
+#login-body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: antiquewhite;
+    color: black;
+}
+
+.login-header{
+    background-color: rgba(255, 0, 0, 0.781);
+    color: white; 
+    padding: 2rem;
+    font-weight: bolder;
+}
+
+.login-header h3{
+    font-weight:400;
+}
+
+.login-form{
+    margin-top: 3rem;
+}
+
+.login-btn{
+    align-content: center !important;
+}
+
+.login-btn-secondary {
+    color: #fff !important;
+    background-color: #6c757d7c;
+    border-color: #6c757d7c;
+    text-decoration: none;
+}
+
+/* form i{
+    font-size: .02rem !important;
+} */
+
+.rrequired:after { 
+    content:"*";
+    color: red;
+ }
+
+ /*  */
+ /* SignUp Page */
+ #signup-body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: antiquewhite;
+    color:black; 
+}
+
+.signup-header{
+    background-color: rgba(255, 0, 0, 0.781) !important;
+    color: white; 
+    padding: 2rem;
+    font-weight: bolder;
+}
+
+.signup-header h3{
+    font-weight: bolder;
+}
+
+.signup-form{
+    margin-top: 3rem;
+}
+
+.signup-btn{
+    align-content: center !important;
+}
+
+.signup-btn-secondary {
+    color: #fff;
+    background-color: #6c757d7c;
+    border-color: #6c757d7c;
+}
+
+form i{
+    /* font-size: .02rem !important; */
+}
+
+.rrequired:after { 
+    content:"*";
+    color: red;
+ }
+
+ /*  */
+ /* Forgot-Password */
+ .fp-jumbotron{
+     background-color: white;
+     padding: 1rem 1rem;
+ }
+
+ .fp-jumbotron h1{
+     font-size: 3rem;
+ }

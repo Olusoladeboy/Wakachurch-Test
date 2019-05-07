@@ -12,13 +12,13 @@
     <!-- Bootstrap CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Main Stylesheet -->
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="../main.css">
     <!-- Googel Font -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <!-- Font-awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css" integrity="sha384-Mmxa0mLqhmOeaE8vgOSbKacftZcsNYDjQzuCOm6D02luYSzBG8vpaOykv9lFQ51Y" crossorigin="anonymous">
 </head>
-<body>
+<body id="login-body">
     <header>
         <div class="login-header text-center">
             <h3 class=""><i>Hey, Welcome Back!</i></h3>
@@ -41,12 +41,12 @@
                             <div class="text-left form-group form-check">
                                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
                                 <label class="form-check-label" for="exampleCheck1">Remember Me</label>
-                                <span class="float-right text-danger">Forgotten Password?</span>
+                                <span class="float-right"><a class="btn-link text-danger" href="forget-password.html">Forgotten Password?</a></span>
                             </div>
-                            <button type="submit" class="btn btn-danger">Sign in</button>
+                            <button type="submit" class="login-btn btn btn-danger">Sign in</button>
                         </form>
                         <div class="mt-5 text-center">
-                            <p class="btn btn-secondary">New Member? <a class="text-danger" href="../auth/signup.html"> Sign Up</a></p>
+                            <p class="btn btn-secondary login-btn-secondary ">New Member? <a class="text-danger" href="../auth/signup.html"> Sign Up</a></p>
                         </div>                        
                     </div>
                     <div class="col-lg-4"></div>
